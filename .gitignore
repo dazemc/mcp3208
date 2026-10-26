@@ -1,0 +1,43 @@
+# ==============================================================================
+# KiCad 9.0+ Complete Git Ignore Template
+# ==============================================================================
+
+# --- KiCad v9 Backup Directories ---
+# KiCad 9 moves project backups into a dedicated local directory
+.kicad_backups/
+*-backups/
+_restore*/
+.history/
+
+# --- Temporary, Cache, and Legacy Backup Files ---
+*.bak
+*.bak-*
+*~
+_autosave-*
+*.erc
+*.drc
+*.log
+
+# --- Local Project Workspace Settings ---
+# Stores window layout, active layers, and local zoom states (mutates constantly)
+*.kicad_prl
+*.kicad_user
+
+# --- Component & Footprint Graphic Cache ---
+*-fp-info-cache
+*.fp-info-cache
+
+# --- Manufacturing and Fabrication Outputs ---
+# Excludes generated manufacturing data to keep source control clean
+[Gg]erber/
+[Gg]erbers/
+[Oo]utput/
+[Oo]utputs/
+[Bb]om/
+[Bb]oms/
+*.gbr
+*.drl
+*.pdf
+*.csv
+*.pos
+*.rpt
